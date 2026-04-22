@@ -2,7 +2,6 @@ from googletrans import LANGUAGES, Translator
 
 
 def _normalize_lang(lang):
-    """Normalize language input, including common Cyrillic homoglyphs."""
     if lang is None:
         return ""
 
